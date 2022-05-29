@@ -1,10 +1,10 @@
 import React from 'react'
-import UseReducer from './components/UseReducer'
+import UseContext from './components/UseContext'
 
 function App() {
   return (
     <>
-      <UseReducer/>
+      <UseContext/>
     </>
   )
 }
