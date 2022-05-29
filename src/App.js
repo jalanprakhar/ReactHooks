@@ -1,26 +1,16 @@
-import React, { useState } from "react"
-import Forms from "./components/Forms";
-import Rules from "./components/Rules";
-import UseState from "./components/UseState";
-import UseStateArrrayRendering from "./components/UseStateArrrayRendering";
-import UseStateObject from "./components/UseStateObject";
-// import UseState from "./components/UseState";
-function App() {
+import React from 'react'
+import UseEffect from './components/UseEffect'
 
+function App() {
   return (
     <>
-      {/* <UseState/> */}
-      {/* <Rules/> */}
-      {/* <UseStateArrrayRendering/> */}
-      {/* <UseStateObject/> */}
-      {/* <UseStateObject/> */}
-      <Forms/>
+      <h3>
+        Use states are used when while changing a state we need to change something outside the scope of the function ( SideEffects )
+      </h3>
+      <UseEffect/>
 
     </>
   )
-    
-  
-  
 }
 
-export default App;
+export default App
