@@ -1,10 +1,10 @@
 import React from 'react'
-import UseContext from './components/UseContext'
+import UseEffect from './components/UseEffect'
 
 function App() {
   return (
     <>
-      <UseContext/>
+      <UseEffect/>
     </>
   )
 }
