@@ -12,7 +12,7 @@ function App() {
     pauseOnHover: true,
     draggable: true,
     progress: undefined,
-  });;
+  });
 
   return (
     <div>
